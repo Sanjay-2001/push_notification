@@ -36,3 +36,8 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+
+google-services.json
+
+push-notifications-42743-firebase-adminsdk-8nc6r-47693610d2.json

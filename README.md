@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+# Push Notification Integration
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<img src="./assets/images/notification-icon.png" width="200" height="200" />
 
-## Get started
+## Overview
+This project demonstrates the integration of push notifications in a mobile application using Firebase Cloud Messaging (FCM). The app allows users to receive notifications both as push notifications and in-app messages.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Steps for Sending Push Notifications
 
-2. Start the app
+### Step 1: Access Firebase Cloud Messaging
+- Go to the [Firebase Console](https://console.firebase.google.com/).
+- Click on **Cloud Messaging** 
 
-   ```bash
-    npx expo start
-   ```
+<img src="./assets/images/firebase-cloud-messaging.png" width="500" height="auto" />
 
-In the output, you'll find options to open the app in a
+### Step 2: Create a New Campaign
+- Under the **Messaging** section, click on **New Campaign**.
+- Select **Notifications** as the notification type.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<img src="./assets/images/new-campaign.png" width="500" height="auto" />
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Step 3: Generate Notification
+- Fill in the **Title** and **Message** for the notification.
+- Customize your notification with any additional information if needed.
 
-## Get a fresh project
+<img src="./assets/images/notification-setup.png" width="500" height="auto" />
 
-When you're ready, run:
+### Step 4: Select Target App and Submit
+- Choose the target app for the notification.
+- Review your notification setup, and click **Submit** to send the notification.
 
-```bash
-npm run reset-project
-```
+<img src="./assets/images/review-submit.png" width="500" height="auto" />
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Screenshots of Mobile Application
 
-To learn more about developing your project with Expo, look at the following resources:
+### Push Notification Example
+- Example of the received push notification on the mobile screen.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+<img src="./assets/images/push-notification.jpg" width="300" height="auto" />
 
-## Join the community
+### In-App Notification Example
+- Example of the in-app notification that appears within the app.
 
-Join our community of developers creating universal apps.
+<img src="./assets/images/in-app-notification.jpg" width="300" height="auto" />
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
