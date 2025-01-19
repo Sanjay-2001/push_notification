@@ -49,3 +49,4 @@ This project demonstrates the integration of push notifications in a mobile appl
 
 ---
 
+To set up push notifications with your own Firebase and Expo accounts, please refer to the [Expo Push Notification Setup Guide](https://docs.expo.dev/push-notifications/fcm-credentials/).
